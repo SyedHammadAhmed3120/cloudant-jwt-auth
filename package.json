@@ -1,0 +1,27 @@
+{
+  "name": "cloudant-jwt-auth",
+  "version": "1.0.0",
+  "description": "Jwt Authentication using cloudant as database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Cloudant",
+    "JWT",
+    "Authentication"
+  ],
+  "author": "Syed Hammad Ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cloudant": "^1.10.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "express-joi-validator": "^2.0.0",
+    "joi": "^13.0.2",
+    "jsonwebtoken": "^8.1.0",
+    "morgan": "^1.9.0"
+  }
+}
